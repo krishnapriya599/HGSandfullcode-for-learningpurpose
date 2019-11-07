@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [workForceJunction]" parallel="tests">
+  <test name="Create a PlanSetup(failed)" parallel="tests">
+    <classes>
+      <class name="test.Testcreate_Plan_Setup">
+        <methods>
+          <include name="loginDemo"/>
+          <include name="Clientlink"/>
+          <include name="EligibilityandEnrollment"/>
+          <include name="CreatePlanSetup"/>
+          <include name="ESScompany"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test.Testcreate_Plan_Setup -->
+      <class name="test.TestBasic_Information_PlanSetup">
+        <methods>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test.TestBasic_Information_PlanSetup -->
+    </classes>
+  </test> <!-- Create a PlanSetup(failed) -->
+  <test name="basic information plan setup(failed)" parallel="tests">
+    <classes>
+      <class name="test.Testcreate_Plan_Setup">
+        <methods>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- test.Testcreate_Plan_Setup -->
+      <class name="test.TestBasic_Information_PlanSetup">
+        <methods>
+          <include name="Clientlink"/>
+          <include name="EnterBasic_Information_PlanSetup"/>
+          <include name="openBrowser"/>
+          <include name="ESScompany"/>
+          <include name="loginDemo"/>
+          <include name="EligibilityandEnrollment"/>
+        </methods>
+      </class> <!-- test.TestBasic_Information_PlanSetup -->
+    </classes>
+  </test> <!-- basic information plan setup(failed) -->
+</suite> <!-- Failed suite [workForceJunction] -->

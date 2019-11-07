@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33831" started-at="2019-10-21T09:50:38Z" finished-at="2019-10-21T09:51:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33831" started-at="2019-10-21T09:50:38Z" finished-at="2019-10-21T09:51:12Z">
+      <class name="test.Testcreate_Plan_Setup">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:test.Testcreate_Plan_Setup@651fd0]" name="openBrowser" is-config="true" duration-ms="12237" started-at="2019-10-21T15:20:38Z" finished-at="2019-10-21T15:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginDemo()[pri:0, instance:test.Testcreate_Plan_Setup@651fd0]" name="loginDemo" duration-ms="5527" started-at="2019-10-21T15:20:51Z" finished-at="2019-10-21T15:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDemo -->
+        <test-method status="PASS" signature="Clientlink()[pri:0, instance:test.Testcreate_Plan_Setup@651fd0]" name="Clientlink" duration-ms="2193" started-at="2019-10-21T15:20:56Z" finished-at="2019-10-21T15:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clientlink -->
+        <test-method status="PASS" signature="ESScompany()[pri:0, instance:test.Testcreate_Plan_Setup@651fd0]" name="ESScompany" duration-ms="9006" started-at="2019-10-21T15:20:58Z" finished-at="2019-10-21T15:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ESScompany -->
+        <test-method status="PASS" signature="EligibilityandEnrollment()[pri:0, instance:test.Testcreate_Plan_Setup@651fd0]" name="EligibilityandEnrollment" duration-ms="1103" started-at="2019-10-21T15:21:07Z" finished-at="2019-10-21T15:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EligibilityandEnrollment -->
+        <test-method status="PASS" signature="CreatePlanSetup()[pri:0, instance:test.Testcreate_Plan_Setup@651fd0]" name="CreatePlanSetup" duration-ms="3661" started-at="2019-10-21T15:21:08Z" finished-at="2019-10-21T15:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePlanSetup -->
+      </class> <!-- test.Testcreate_Plan_Setup -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
